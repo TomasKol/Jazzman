@@ -1,0 +1,63 @@
+div {
+  width: auto;
+  padding: 3px;
+}
+div#global_div {
+  max-width: 700px;
+  min-width: 500px;
+  align-self: center;
+  padding: 20px ;
+  margin: auto;
+  font-family: Helvetica, sans-serif;
+}
+span {
+  font-size: 30px;
+}
+.spacing_on_top {
+  margin-top: 7px;
+}
+.title {
+  font-size: 26px;
+  text-align: left;
+}
+.title_chord {
+  font-size: 26px;
+  text-align: center;
+}
+.small_chars {
+  font-size: 15px;
+  padding: 0px;
+}
+.large_chars {
+  text-align: center;
+}
+.text_right {
+  text-align: end;
+}
+.text_left {
+  text-align: start;
+}
+.text_center {
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .large_chars {
+    font-size: 20px;
+  }
+  .small_chars {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 19px;
+  }
+  span.title {
+    text-align: left;
+  }
+}
+div.title {
+  text-align: left;
+}
+span.title {
+  text-align: center;
+}
